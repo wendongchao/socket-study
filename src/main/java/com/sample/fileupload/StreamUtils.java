@@ -15,7 +15,7 @@ public class StreamUtils {
      * @return byte
      * @date 2023/4/12 23:01
      */
-    public byte[] streamToByteArray(InputStream inputStream) throws IOException {
+    public static byte[] streamToByteArray(InputStream inputStream) throws IOException {
         // 创建输出流对象
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] buf = new byte[1024];
