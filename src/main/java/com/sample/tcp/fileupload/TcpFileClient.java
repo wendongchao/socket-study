@@ -1,4 +1,4 @@
-package com.sample.fileupload;
+package com.sample.tcp.fileupload;
 
 import java.io.*;
 import java.net.InetAddress;
